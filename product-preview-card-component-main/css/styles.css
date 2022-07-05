@@ -1,0 +1,102 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+.desktopimg{
+  max-width:100%;
+  max-height:100%;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.texttemplate{
+  position: fixed;
+  display: block;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  left: 30%;
+  top: 20%;
+  border-radius: 2%;
+}
+
+.productgenre{
+  display: inline-block;
+  position: absolute;
+  bottom: 80%;
+  left: 55%;
+  font-family: 'Montserrat', serif;
+  font-weight: lighter;
+  color: grey;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+
+.producttitle{
+  display: inline-block;
+  position: absolute;
+  bottom: 45%;
+  left: 55%;
+  font-family: 'Fraunces', serif;
+  font-size: 45px;
+}
+
+.productdescription{
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  left: 55%;
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  color: grey;
+  line-height: 1.6;
+}
+
+.productprice{
+  display: inline-block;
+  position: absolute;
+  bottom: 12%;
+  left: 55%;
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+  font-size: 45px;
+}
+
+.crossedprice{
+  display: inline-block;
+  position: absolute;
+  bottom: 17%;
+  left: 80%;
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.addtocart-btn{
+  display: inline-block;
+  position: absolute;
+  bottom: 5%;
+  width: 310px;
+  height: 60px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 2%;
+  left: 55%;
+  font-family: 'Montserrat', serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.addtocart-btn:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+}
+
+.cartimg{
+  display: inline-block;
+  position: absolute;
+  bottom: 8.65%;
+  left: 64.2%;
+}
