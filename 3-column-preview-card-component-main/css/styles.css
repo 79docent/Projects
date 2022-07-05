@@ -1,0 +1,75 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.maincontainer{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  max-width: 80%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.firstcontainer{
+  background-color: hsl(31, 77%, 52%);
+  flex: 1 1 0px;
+}
+
+.secondcontainer{
+  background-color: hsl(184, 100%, 22%);
+  flex: 1 1 0px;
+}
+
+.thirdcontainer{
+  background-color: hsl(179, 100%, 13%);
+  flex: 1 1 0px;
+}
+
+h1{
+  font-size: 3em;
+  margin-top: 12%;
+  margin-left: 15%;
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+p{
+  font-size: 15px;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+}
+
+button{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  margin-left: 15%;
+  width: 60%;
+  height: 10%;
+  border-radius: 30px;
+  mix-blend-mode: screen;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+button:hover{
+  background-color: Transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+img{
+  margin-top: 20%;
+  margin-left: 15%;
+}
